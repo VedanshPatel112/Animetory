@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>
+     Anime
+    </title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999" >
+        
+    <div class="navbar-header">
+       
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+      <a class="navbar-brand" href="#"></a>
+
+    </div>
+  
+</nav>
+
+    <br>
+    <br>
+        
+            <br>
+           
+            
+
+              <video autoplay muted loop id="myVideo">
+                <source src="Untitled video ‐ Made with Clipchamp.mp4" type="video/mp4">
+              </video>
+              
+              <div class="content">
+                <h1>
+                  <div class="text-box">
+                    <span class = "naruto">A</span>
+                    <span class = "naruto">N</span>
+                    <span class = "naruto">I</span>
+                    <span class = "naruto">M</span>
+                    <span class = "naruto">E</span>
+          
+                    </div>
+                  </h1>
+                 
+             </div>
+             
+            
+            <div id="main">
+              ...
+            </div>
+             <div class="dropdown">
+              
+              <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a id="about">Anime Updates</a>
+                <a id="fights">Anime in Motion</a>
+                <a id = "memes" >Anime Memes</a>
+                <a id="merch">Anime Merch</a>
+                <a id="register">Register</a>
+                <a id="chat">Chat</a>
+              </div>
+              
+                <span onclick="openNav()" class="drop" >
+                  <div class="bar1">      </div>
+                  <div class="bar2">      </div>
+                  <div class="bar3">      </div>
+              
+                </span>
+                <div id="main">
+                  
+                </div>
+              </div>
+          
+            
+          
+</nav>
+    
+<br>
+<br>
+
+</html>
+
+
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+    <section id="intrest" style="background: firebrick;">
+        
+        
+    </section>
+
+  
+
+  </script>
+  <script>
+    function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of itz
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+document.getElementById("about").onclick = function () {
+    window.location.href = "about.html";
+}
+document.getElementById("merch").onclick = function () {
+     window.location.href = "merch.html";
+}
+document.getElementById("fights").onclick = function () {
+    window.location.href = "fights.html";
+}
+document.getElementById("memes").onclick = function () {
+    window.location.href = "memes.html";
+}
+document.getElementById("register").onclick = function () {
+    window.location.href = "register.html";
+}
+document.getElementById("chat").onclick = function () {
+    window.location.href = "chat.html";
+}
+
+
+  </script>
+  </html>
